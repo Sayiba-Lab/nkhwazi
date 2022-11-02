@@ -48,7 +48,7 @@ return [
       'text' => 'Operational Panel',
       'is_header' => true
     ], [
-      'url' => '/calls',
+      'url' => '/calllogs',
       'icon' => 'fas  fa-fw me-2 fa-phone',
       'text' => 'Calls'
     ],  [

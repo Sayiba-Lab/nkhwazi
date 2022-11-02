@@ -26,6 +26,11 @@ Route::get('users/login', function(){
         'subtitle'=>''
     ]);
 })->name('login');
+
+Route::get('calllogs', [App\Http\Controllers\CallLogController::class, 'index']);
 Route::resource('users', App\Http\Controllers\UserController::class);
+Route::resource('messages', App\Http\Controllers\TextMessageController::class);
+Route::resource('media', App\Http\Controllers\MediaController::class);
+
 
 
